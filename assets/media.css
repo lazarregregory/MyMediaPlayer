@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+body{
+    background-color: rgb(172, 44, 133);
+    text-align: center;
+}
+  
+  .player {
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid white;
+    overflow: hidden;
+    background: black;
+    
+    
+  }
+  
+  video, audio, .controls {
+    width: 100%;
+  }
+  
+  .controls {
+    height: 36px;
+  }
+  
+  button {
+    display: block;
+    float: left;
+    border: 0;
+    margin-right: 2px;
+    height: 100%;
+    width: 50px;
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    outline: none;
+    
+  }
+  
+  button:hover, button:focus {
+    background-color:black;
+    
+  }
+  
+  button:active {
+    background-color:black;
+    border:none;
+   
+  }
+  
+  .controls {
+    font-size: 12px;
+    display:flex;
+    line-height: 36px;
+    justify-content: space-around;
+    background-color: black; 
+    transform: translateY(100%) translateY(-5px);
+    transition: all 0.4s;
+    
+  }
+  .player:hover .controls{
+    transform: translateY(0);
+    
+  }
+  video {
+    margin-bottom: -5px;
+  }
+  .time{
+      color:white
+  }
+  
+  
+ 
+  
